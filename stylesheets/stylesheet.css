@@ -1,0 +1,56 @@
+body {
+  background: #EDF0F0;
+}
+
+.fig {
+    display: block; /* Блочный элемент (для старых браузеров) */
+    text-align: center; /* Выравнивание по центру */
+    margin-top: 40px; /* Отступ сверху */
+    margin-bottom: 5px; /* Отступ снизу */
+    /*color: #666; Цвет подрисуночной подписи */
+   }
+
+img {
+width: 200px;
+position: static;
+border-radius: 100px; /* Радиус скругления */
+box-shadow: #FFFFFF;
+}
+
+p, h3, ul, ol {
+  color: black;
+  font-family: Futura, sans-serif;
+  font-size: 15px;
+  text-align: left;
+}
+
+h1 {
+  color: black;
+  font-family: Futura, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  /*padding-left: 20px;*/
+  position: static;
+}
+
+h2 {
+  color: black;
+  font-family: Futura, sans-serif;
+  font-size: 20px;
+}
+
+.maincontainer {
+  display: flex;
+  align-items: flex-start;
+  align-content: space-around;
+}
+
+.content{
+  display: inline-block;
+  background-color: #FFFFFF;
+  width: 300px;
+  height: auto;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 2%;
+}
